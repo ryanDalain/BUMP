@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="BeefUpMyPassword.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeefUpMyPassword"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.499,0.297">
+        <TextBlock x:Name="SubtitleTextBlock" HorizontalAlignment="Center" Margin="0,-350,0,0" TextWrapping="Wrap" Text="  Beef Up My Password" VerticalAlignment="Center" FontSize="20" Width="221"/>
+        <TextBlock x:Name="TitleTextBlock" HorizontalAlignment="Center" Margin="0,-450,0,0" TextWrapping="Wrap" Text="B.U.M.P" VerticalAlignment="Center" FontSize="72"/>
+        <TextBlock x:Name="desc1" HorizontalAlignment="Left" Margin="37,305,0,0" TextWrapping="Wrap" Text="Most Password requirements are 6-8 characters minimum and need to include capital letters, numbers, and a symbol character (for example '!')." VerticalAlignment="Top" Height="121" Width="414" FontSize="24"/>
+        <TextBlock x:Name="field1TextBlock" HorizontalAlignment="Left" Margin="753,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="516" FontSize="14" Height="37">
+        	<Run Text="Do you have  starting point? It doesn't have to satisfy any password requirements. (required)"/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+        <TextBox x:Name="field1" HorizontalAlignment="Left" Margin="753,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="36" MaxLength="28"/>
+        <TextBlock x:Name="field2TextBlock" HorizontalAlignment="Left" Margin="753,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="530" FontSize="14" Text="Having trouble coming up with a starting point? Here below are some questions with answers you might easily remember! "/>
+        <TextBlock x:Name="questionTB" HorizontalAlignment="Left" Margin="753,453,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="516" FontSize="22"/>
+        <Button x:ConnectionId='0' x:Name="askAgainButton" Content="Ask me another" HorizontalAlignment="Left" Margin="750,485,0,0" VerticalAlignment="Top" ClickMode="Press"                             />
+        <Button x:ConnectionId='0' x:Name="generatePassButton" Content="Generate my password!" HorizontalAlignment="Left" Margin="750,649,0,0" VerticalAlignment="Top" ClickMode="Press"                                 />
+        <TextBlock x:Name="passwordTB" HorizontalAlignment="Center" Margin="956,656,30,43" TextWrapping="Wrap" VerticalAlignment="Center" Height="69" Width="380" FontSize="20" SelectionHighlightColor="#FF510AF9"/>
+        <TextBlock x:Name="desc2" HorizontalAlignment="Left" Margin="189,426,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="434" RenderTransformOrigin="0.795,0.458">
+        	<Run FontSize="24" FontFamily="Segoe UI, Tahoma, Arial, Arial Unicode MS, Microsoft Sans Serif, Lucida Sans Unicode" Text="In this application, input anything as a starting point and the app will transform it to meet the requirements above!"/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="37,534,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414">
+        	<Run FontSize="24" FontFamily="Segoe UI, Tahoma, Arial, Arial Unicode MS, Microsoft Sans Serif, Lucida Sans Unicode" Text="There are some random elements to the password generation, so hit the button again if you don't like the way your new password is spelled."/>
+        </TextBlock>
+        <ToggleButton x:ConnectionId='0' x:Name="toggle8chars" Content="Make the Minimum 8 characters" HorizontalAlignment="Left" Margin="750,596,0,0" VerticalAlignment="Top"                                                                   IsChecked="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="753,544,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" FontSize="14" Text="Before generating your password, toggle the button below if you the password needs to be at least 8 characters (default is 6)"/>
+
+    </Grid>
+</Page>
+

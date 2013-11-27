@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BLITZCRANK</Machine>
+    <WindowsUser>Ryan Alain</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>54d79785-aaba-4995-9211-5bc49e4b51ee</PackageIdentityName>
+    <RegisteredManifestChecksum>1EECBFA821160E6520929A33B669B68D8867D6DBD94BA6392C24A2391A882648</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>54d79785-aaba-4995-9211-5bc49e4b51ee_1.0.0.0_neutral__c37m2qkq67wf4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>54d79785-aaba-4995-9211-5bc49e4b51ee_c37m2qkq67wf4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>54d79785-aaba-4995-9211-5bc49e4b51ee</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ryan Alain</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-26T19:41:48.913</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\bin\Debug\BeefUpMyPassword.exe">
+      <PackagePath>BeefUpMyPassword.exe</PackagePath>
+      <Modified>2013-11-27T06:07:04.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-11-26T19:41:47.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-11-27T05:37:55.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ryan alain\documents\visual studio 2013\Projects\BeefUpMyPassword\BeefUpMyPassword\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-11-26T19:41:47.772</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
